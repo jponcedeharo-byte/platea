@@ -23,7 +23,6 @@
   },
   "devDependencies": {
     "@netlify/functions": "^6.0.3",
-    "@netlify/plugin-nextjs": "^5.16.5",
     "@tailwindcss/turbopack": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
