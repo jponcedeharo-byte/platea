@@ -5,6 +5,12 @@
 [build.environment]
   NODE_VERSION = "20"
 
+[functions]
+  directory = "netlify/functions"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
 # Caché de assets estáticos (imágenes, fuentes, JS/CSS con hash)
 [[headers]]
   for = "/_next/static/*"
