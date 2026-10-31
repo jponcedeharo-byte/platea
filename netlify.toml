@@ -1,12 +1,10 @@
 [build]
-  command = "node --version && npm --version && npm ci && npm run build"
+  command = "npm run build"
   publish = ".next"
 
 [build.environment]
   NODE_VERSION = "22"
 
-[functions]
-  directory = "netlify/functions"
 
 # Caché de assets estáticos (imágenes, fuentes, JS/CSS con hash)
 [[headers]]
